@@ -6,10 +6,6 @@
 / {
     macros {
         taster1: taster1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
             bindings = 
                 <&kp ENTER>;
         };
@@ -27,7 +23,7 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = 
-                <&kp H>;
+                <&kp S>;
         };
         taster4: taster4 {
             compatible = "zmk,behavior-macro";
@@ -35,7 +31,7 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings = 
-                <&kp H>;
+                <&kp A>;
         };
     };
     keymap {
